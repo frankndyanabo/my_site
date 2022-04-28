@@ -13,5 +13,7 @@
     <color name="green">#0F9D58</color>
     <color name="cool">#188FCF</color>
     <color name="warm">#F1D416</color>
+    <color name="warm">#ADD8E6</color>
+    <color name="lightblue">#ADD8E6</color>
 
 </resources>
