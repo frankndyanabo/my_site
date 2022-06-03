@@ -7,7 +7,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/kyu"
-        android:label="kyustuportal"
+        android:label="KyuStuPortal"
         android:roundIcon="@mipmap/kyu"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">

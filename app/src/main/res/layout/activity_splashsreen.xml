@@ -4,41 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/spimage"
     android:layout_width="match_parent"
-    android:background="@color/grey"
+    android:background="@drawable/portal"
     android:layout_height="match_parent"
     tools:context=".splashsreen">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="273dp"
-        android:layout_height="358dp"
+        android:layout_width="161dp"
+        android:layout_height="130dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.378"
+        app:layout_constraintVertical_bias="0.164"
         app:srcCompat="@drawable/nobgkyu" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="321dp"
-        android:fontFamily="sans-serif-light"
-        android:layout_height="64dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:text="Kyu Students Portal"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="@color/colorPrimary"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.628" />
 </androidx.constraintlayout.widget.ConstraintLayout>
